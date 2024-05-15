@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цены</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        #priceChartContainer {
+            width: 1000px; 
+            height: 500px; 
+        }
+        #priceChart {
+            width: 500px; 
+            height: 500px;  
+        }
+    </style>
+</head>
+<body>
+    <input type="file" id="fileInput">
+    <div id="tableContainer"></div>
+    <div id="priceChartContainer">
+        <div id="dataTableContainer"></div>
+        <canvas id="dataChartContainer"></canvas>
+        <div id="priceChangesContainer"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
