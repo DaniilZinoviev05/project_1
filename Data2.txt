@@ -1,0 +1,3 @@
+Year\tInflation
+2005\t12.3
+2006\t9.1
